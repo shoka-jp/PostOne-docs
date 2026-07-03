@@ -1,0 +1,27 @@
+name: 機能要望
+description: PostOne への機能追加・改善を提案する
+title: "[要望] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 困りごと・実現したいこと
+      description: 現在困っていることや、実現したいことを記載してください。
+      placeholder: 例) 投稿ごとにハッシュタグのテンプレートを使い回したい
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する解決方法
+      description: どのような機能・変更があれば解決できそうか、アイデアがあれば記載してください。
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 現在の回避方法
+      description: 今はどのように対処しているか、あれば記載してください。
+    validations:
+      required: false
